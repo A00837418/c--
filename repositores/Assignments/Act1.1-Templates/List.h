@@ -10,7 +10,7 @@ class List{
         int size;
     public:
         List();
-        void insert(const T& value);
+        void insert(const T& value); //inserta el elemnto final de la lista 
         void removeLast();
         T getData(int pos);
         int getSize();
